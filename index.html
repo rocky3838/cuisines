@@ -34,6 +34,7 @@ p{
     color: rgb(33, 31, 31);
     box-shadow:8px 0px 20px 12px rgb(250, 70, 10); 
     justify-content: center;
+     grid-area:heading;
 }
 h2{
     background-color: rgb(241, 85, 85);
@@ -54,6 +55,7 @@ body{
 }
 #intro{
     box-shadow:8px 0px 20px 12px rgb(227, 150, 125); 
+    grid-area:intro ;
 }
 button{
     margin: 13px;
@@ -64,12 +66,19 @@ button{
     bottom:0;
     right: 0px ;
 }
+.grid-container{
+    grid-template-areas:'heading heading heading heading intro'
+     'nav nav nav nav intro' 
+     
+}
+
 
 
     </style>
 </head>
 <div class="full">
 <body>
+    <div class="grid- container">
     <div class="heading">
         <h1>
             Various Cuisines of Our country
@@ -84,6 +93,7 @@ button{
         and tasty ones.I bet after seeing this website there are going to be foodies all around the world running to
         India to try its amazing dishes!!!</i>
     </p>
+</div>
 </div>
     <div id="nav">
     
